@@ -9,17 +9,34 @@
 
 .section-2 {
     background: white;
-    padding: 40px 60px;
-    color: rgb(61, 25, 109);
+    color: rgb(104, 64, 156);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     h2 {
         text-align: center;
         font-size: 50px;
+        background: black;
+        color: #e92b21;
+        padding: 20px 0;
+        border-top : 4px solid white;
+        border-radius: 100px;
+        position: sticky;
+        top:0;
+        z-index: 20;
+    }
+    h3 {
+        text-align: center;
+        font-size: 34px;
+        padding: 20px;
     }
     div {
-        font-size: 30px;
-        line-height: 30px;
-        letter-spacing: 1px;
-        padding: 20px;
+        h1 {
+            color: #e92b21;
+            padding: 20px 60px;
+            font-size: 30px;
+            line-height: 30px;
+            letter-spacing: 1px;
+        }
+        padding: 20px 60px;
+        color: black;
     }
 }
