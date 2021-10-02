@@ -1,16 +1,18 @@
 <div class="section-1"></div>
 <div class="section-2">
-  <h2>FLIX CRIT</h2>
-  <h3>All NETFLIX latest release's synopsis and reviews at one stop !!!</h3>
-  <i class="fa-solid fa-angles-right"></i>
+  <h2>OTT CRIT</h2>
+  <h3>All latest OTT release's synopsis and reviews at one stop !!!</h3>
   <div class="content" *ngFor="let lang of langCategory">
     <h1>{{lang.language}}</h1>
     <owl-carousel-o [options]="customOptions">
       <ng-container *ngFor="let movie of lang.movies">
         <ng-template carouselSlide>
-          <div class="item">
-            <img width="80px" height="500px" [src]="movie.image" [alt]="movie.name" [title]="movie.name">
+          <div (click)="setSelected(movie)" class="item">
+            <img width="80px" height="400px" [src]="movie.image" [alt]="movie.name" [title]="movie.name">
             <div class="title">{{ movie.name }}</div>
+            <div class="title">
+              <star-rating [value]="movie.rating" [totalstars]="5" checkedcolor="red" uncheckedcolor="black" size="24px" [readonly]="true"></star-rating>
+            </div>
           </div>
         </ng-template>
       </ng-container>  

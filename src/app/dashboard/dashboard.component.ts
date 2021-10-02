@@ -2,6 +2,9 @@ import { Component, HostListener, OnInit, ɵpatchComponentDefWithScope } from "@
 import { NgbCarouselConfig } from "@ng-bootstrap/ng-bootstrap";
 import { DashboardService } from "./services/dashboard.service";
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { trigger, state, style, transition, animate } from "@angular/animations";
+import { InfoDialogComponent } from "./info-dialog/info-dialog.component";
+import { MatDialog, MatDialogConfig } from "@angular/material/dialog";
 
 
 @Component( {
@@ -13,7 +16,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 
 export class DashboardComponent implements OnInit{
     customOptions: OwlOptions = {
-      loop: true,
+      loop: false,
       mouseDrag: true,
       touchDrag: true,
       pullDrag: true,
@@ -40,7 +43,8 @@ export class DashboardComponent implements OnInit{
     response:any;
     langCategory:any[]=[];
 
-      constructor(private readonly dashboardService: DashboardService) {
+      constructor(private readonly dashboardService: DashboardService,
+        private dialog: MatDialog) {
       }
 
       ngOnInit() {
@@ -49,6 +53,16 @@ export class DashboardComponent implements OnInit{
             this.langCategory = this.response.dashboard;
             console.log(this.langCategory);
         })
+    }
+
+    setSelected(movie:{}) {
+      const dialogConfig = new MatDialogConfig();
+        dialogConfig.width='400px';
+        dialogConfig.disableClose = true;
+        dialogConfig.autoFocus = true;
+        dialogConfig.panelClass = 'dialog-border';
+        dialogConfig.data = { movie: movie };
+        this.dialog.open(InfoDialogComponent, dialogConfig);
     }
 
 }
