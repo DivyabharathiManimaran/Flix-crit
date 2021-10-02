@@ -11,3 +11,32 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     padding: 0;
     box-sizing: border-box;
 }
+
+.content .owl-next, .content .owl-prev {
+    background: rgba(255, 255, 255, 0.781) !important;
+    color: #222 !important;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+    position: absolute;
+    top: 45%;
+}
+.content .owl-next {
+    right: 0;
+    i {
+        font-size: 40px;
+        top: 8%;
+        right: 12px;
+        position: absolute;
+    }
+}
+
+.content .owl-prev  {
+    left: 0;
+    i {
+        font-size: 40px;
+        top: 8%;
+        right: 15px;
+        position: absolute;
+    }
+}
