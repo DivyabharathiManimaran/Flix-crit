@@ -4,68 +4,92 @@
             "language":"English",
             "movies": [
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Soorarai Pottru",
+                    "medium": "Amazon Prime video",
+                    "rating":"3.5/5",
+                    "image":"https://i1.wp.com/www.socialnews.xyz/wp-content/uploads/2020/08/22/20200822_132614.jpg?w=1418&quality=80&zoom=1&ssl=1",
+                    "genre": "Action, Biography, Drama",
+                    "relDate":"12 Nov 2020",
+                    "cast" : "Suriya Sivakumar, Aparna Balamurali",
+                    "director" : "Sudha Kongara",
+                    "storyLine":"Nedumaaran Rajangam aka Maara (Suriya) ex-air force officer from a village in Madurai, who dreams of starting an airline company and make the commoners fly. He falls in love with for Sundari aka Bommi (Aparna Balamurali), a baker, and marries her.Maara meets his idol Paresh Goswami (Paresh Rawal), the head of one of the biggest airline companies in the country, and puts forward his ideas, only to get rejected. How Maara achieves his dreams with the support of his mother Pechi (Urvashi), Bommi, and friends forms the plot of Soorarai Pottru."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Ponmagal Vandhal",
+                    "medium": "Amazon Prime video",
+                    "rating":"2.5/5",
+                    "image":"https://cdn.99images.com/photos/movies-tv/ponmagal-vanthal/ponmagal-vanthal-movie-latest-hd-photos-posters-wallpapers-download-rdfh.jpg?v=101583203196",
+                    "relDate":"29 May 2020",
+                    "genre": "Drama",
+                    "cast":"Jyothika, Bhagyaraj",
+                    "director" : "JJ Fredrick",
+                    "storyLine":"Jyothi, an Ooty-based woman was accused of abducting and killing children, and the investigation team killed her in an encounter, when she tried to escape. The case is reopened after 15 years by 'Petitioner' Pethuraj (K Bhagyaraj) and his daughter Adv. Venba (Jyotika), who claim that Jyothi was falsely accused. Prosecutor Rajarathinam (R Parthiban) creates challenges for Venba in bringing justice to Jyothi. The rest of the plot depicts how the young advocate proves Jyothi's innocence."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
+                    "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt11311958%2F&psig=AOvVaw1gpO2DO2h6dd46tat9WVbA&ust=1633246877371000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCICVsvacq_MCFQAAAAAdAAAAABAO",
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Andhaghaaram",
+                    "medium": "Netflix",
+                    "rating":"3.5/5",
+                    "image":"https://bingeddata.s3.amazonaws.com/uploads/2020/11/Andhaghaaram-Movie-Review-Andhakaaram-Movie-Review-.jpg",
+                    "relDate": "24 Nov 2020",
+                    "genre": "Action Thriller",
+                    "cast":"Arjun Das, Vinoth Kishan", 
+                    "director" : "Vignarajan",
+                    "storyLine":"A blind conjurer's struggle for survival, a washed-up cricketer's fight for deliverance and a desolate psychiatrist's quest for reclamation lead them to a labyrinth of obscurity while their lives are intertwined in a web of deceit, dismay and darkness."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Penguin",
+                    "medium": "Amazon Prime video",
+                    "rating":"3/5",
+                    "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt11323316%2F&psig=AOvVaw24Kei7rBgUtVD1tc4gsb1o&ust=1633246774123000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJCdlcKcq_MCFQAAAAAdAAAAABAJ",
+                    "relDate": "19 Jun 2020",
+                    "genre": "Mystery Thriller",
+                    "cast":" Keerthi Suresh, Lingaa",
+                    "director" : "Eashvar Karthic",
+                    "storyLine":"Penguin is a Tamil thriller movie written and directed by Eshavar Karthic, and produced by Stone Bench Films and Karthik Subbaraj. The movie stars Keerthy Suresh in the lead role."
                 },
                 {
-                    "name":"",
-                    "rating":"",
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
                     "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 },
                 {
-                    "name":"",
-                    "rating":"",
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
                     "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 },
                 {
-                    "name":"",
-                    "rating":"",
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
                     "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 }
             ]
         },
@@ -73,68 +97,103 @@
             "language":"Tamil",
             "movies": [
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Maara",
+                    "medium": "Amazon Prime",
+                    "rating":"3.5/5",
+                    "image":"https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/maara-et00077728-09-10-2020-04-52-43.jpg",
+                    "relDate": "08 Jan 2021",
+                    "genre": "Drama",
+                    "cast":"Madhavan, Shraddha Srinath",
+                    "director" : "Dhilip Kumar",
+                    "storyLine":"Maara is a Tamil drama movie, directed by Dhilip Kumar. The cast of Maara includes Madhavan,Shraddha Srinath."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Jagame Thanthiram",
+                    "medium": "Netflix",
+                    "rating":"2/5",
+                    "image":"https://upload.wikimedia.org/wikipedia/en/1/16/Jagame_Thandhiram_poster.jpg",
+                    "relDate": "18 Jun 2021",
+                    "genre": "Action, Drama, Thriller",
+                    "cast":"Dhanush, Aishwarya Lekshmi",
+                    "director" : "Karthik Subbaraj",
+                    "storyLine":"A carefree gangster (Dhanush) is recruited to help the overseas crime lord take down a rival, he is caught off guard by the moral dilemmas that follow."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Sarpatta",
+                    "medium": "Amazon Prime Video",
+                    "rating":"3.5/5",
+                    "image":"https://1847884116.rsc.cdn77.org/ampigstory/1626861396323/file-1626861396375.jpg",
+                    "relDate": "22 Jul 2021",
+                    "genre": "Drama Sports",
+                    "cast":"Arya, Pasupathi",
+                    "director" : "Pa Ranjith",
+                    "storyLine":"The movie Sarpatta showcases the boxing culture of the 1980s and revolves around a clash between two clans namely Idiyappa Parambarai and Sarpatta Parambarai in North Chennai. Arya played the role of Kabilan, Santhosh Prathap portray a pivotal role in the movie."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Navarasa",
+                    "medium": "Netflix",
+                    "rating":"3/5",
+                    "image":"https://m.media-amazon.com/images/M/MV5BMzhkZDY4MWYtZmM1OS00NWJjLTk3NjgtNDE4NGZmYzJmYzRkXkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_.jpg",
+                    "relDate": "06 Aug 2021",
+                    "genre": "Drama",
+                    "cast":"Arvind Swamy, Suriya Sivakumar",
+                    "director" : "Sarjun KM",
+                    "storyLine":"The nine episodes represent a different emotion or rasa such as anger, compassion, courage, disgust, fear, laughter, love, peace, and wonder."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Annabelle Sethupathi",
+                    "medium": "Disney+ Hotstar",
+                    "rating":"3/5",
+                    "image":"https://static.digit.in/OTT/v2/images/annabelle-sethupathi-394962.jpg",
+                    "relDate": "17 Sep 2021",
+                    "genre": "Action Horror",
+                    "cast":"Vijay Sethupathi, Taapsee Pannu",
+                    "director" : "Deepak Sundarrajan",
+                    "storyLine":"Annabelle Sethupathi is a Tamil action movie, directed by Deepak Sundarrajan. The cast of Annabelle Sethupathi includes Vijay Sethupathi,Taapsee Pannu."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Theeni",
+                    "medium": "Zee 5",
+                    "rating":"3.5/5",
+                    "image":"https://www.reelcinemas.ae/en/Content/images/Movies/HO00002157.jpg",
+                    "relDate": "26 Feb 2021",
+                    "genre": "Comedy Drama Romance",
+                    "cast":"Ashok Selvan, Nithya Menen, Ritu Varma",
+                    "director" : "Ani Sasi",
+                    "storyLine":"Theeni is a Tamil comedy movie, directed by Ani Sasi. The cast of Theeni includes Ashok Selvan,Nithya Menen."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Soorarai Pottru",
+                    "medium": "Amazon Prime video",
+                    "rating":"3.5/5",
+                    "image":"https://wallpapercave.com/wp/wp5711404.jpg",
+                    "genre": "Action, Biography, Drama",
+                    "relDate":"12 Nov 2020",
+                    "cast" : "Suriya Sivakumar, Aparna Balamurali",
+                    "director" : "Sudha Kongara",
+                    "storyLine":"Nedumaaran Rajangam aka Maara (Suriya) ex-air force officer from a village in Madurai, who dreams of starting an airline company and make the commoners fly. He falls in love with for Sundari aka Bommi (Aparna Balamurali), a baker, and marries her.Maara meets his idol Paresh Goswami (Paresh Rawal), the head of one of the biggest airline companies in the country, and puts forward his ideas, only to get rejected. How Maara achieves his dreams with the support of his mother Pechi (Urvashi), Bommi, and friends forms the plot of Soorarai Pottru."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Ponmagal Vandhal",
+                    "medium": "Amazon Prime video",
+                    "rating":"2.5/5",
+                    "image":"https://cdn.99images.com/photos/movies-tv/ponmagal-vanthal/ponmagal-vanthal-movie-latest-hd-photos-posters-wallpapers-download-rdfh.jpg?v=101583203196",
+                    "relDate":"29 May 2020",
+                    "genre": "Drama",
+                    "cast":"Jyothika, Bhagyaraj",
+                    "director" : "JJ Fredrick",
+                    "storyLine":"Jyothi, an Ooty-based woman was accused of abducting and killing children, and the investigation team killed her in an encounter, when she tried to escape. The case is reopened after 15 years by 'Petitioner' Pethuraj (K Bhagyaraj) and his daughter Adv. Venba (Jyotika), who claim that Jyothi was falsely accused. Prosecutor Rajarathinam (R Parthiban) creates challenges for Venba in bringing justice to Jyothi. The rest of the plot depicts how the young advocate proves Jyothi's innocence."
+                },
+                {
+                    "name":"Andhaghaaram",
+                    "medium": "Netflix",
+                    "rating":"3.5/5",
+                    "image":"https://bingeddata.s3.amazonaws.com/uploads/2020/11/Andhaghaaram-Movie-Review-Andhakaaram-Movie-Review-.jpg",
+                    "relDate": "24 Nov 2020",
+                    "genre": "Action Thriller",
+                    "cast":"Arjun Das, Vinoth Kishan", 
+                    "director" : "Vignarajan",
+                    "storyLine":"A blind conjurer's struggle for survival, a washed-up cricketer's fight for deliverance and a desolate psychiatrist's quest for reclamation lead them to a labyrinth of obscurity while their lives are intertwined in a web of deceit, dismay and darkness."
                 }
             ]
         },
@@ -142,68 +201,92 @@
             "language":"Hindi",
             "movies": [
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Soorarai Pottru",
+                    "medium": "Amazon Prime video",
+                    "rating":"3.5/5",
+                    "image":"https://i1.wp.com/www.socialnews.xyz/wp-content/uploads/2020/08/22/20200822_132614.jpg?w=1418&quality=80&zoom=1&ssl=1",
+                    "genre": "Action, Biography, Drama",
+                    "relDate":"12 Nov 2020",
+                    "cast" : "Suriya Sivakumar, Aparna Balamurali",
+                    "director" : "Sudha Kongara",
+                    "storyLine":"Nedumaaran Rajangam aka Maara (Suriya) ex-air force officer from a village in Madurai, who dreams of starting an airline company and make the commoners fly. He falls in love with for Sundari aka Bommi (Aparna Balamurali), a baker, and marries her.Maara meets his idol Paresh Goswami (Paresh Rawal), the head of one of the biggest airline companies in the country, and puts forward his ideas, only to get rejected. How Maara achieves his dreams with the support of his mother Pechi (Urvashi), Bommi, and friends forms the plot of Soorarai Pottru."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Ponmagal Vandhal",
+                    "medium": "Amazon Prime video",
+                    "rating":"2.5/5",
+                    "image":"https://cdn.99images.com/photos/movies-tv/ponmagal-vanthal/ponmagal-vanthal-movie-latest-hd-photos-posters-wallpapers-download-rdfh.jpg?v=101583203196",
+                    "relDate":"29 May 2020",
+                    "genre": "Drama",
+                    "cast":"Jyothika, Bhagyaraj",
+                    "director" : "JJ Fredrick",
+                    "storyLine":"Jyothi, an Ooty-based woman was accused of abducting and killing children, and the investigation team killed her in an encounter, when she tried to escape. The case is reopened after 15 years by 'Petitioner' Pethuraj (K Bhagyaraj) and his daughter Adv. Venba (Jyotika), who claim that Jyothi was falsely accused. Prosecutor Rajarathinam (R Parthiban) creates challenges for Venba in bringing justice to Jyothi. The rest of the plot depicts how the young advocate proves Jyothi's innocence."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
+                    "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt11311958%2F&psig=AOvVaw1gpO2DO2h6dd46tat9WVbA&ust=1633246877371000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCICVsvacq_MCFQAAAAAdAAAAABAO",
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Andhaghaaram",
+                    "medium": "Netflix",
+                    "rating":"3.5/5",
+                    "image":"https://bingeddata.s3.amazonaws.com/uploads/2020/11/Andhaghaaram-Movie-Review-Andhakaaram-Movie-Review-.jpg",
+                    "relDate": "24 Nov 2020",
+                    "genre": "Action Thriller",
+                    "cast":"Arjun Das, Vinoth Kishan", 
+                    "director" : "Vignarajan",
+                    "storyLine":"A blind conjurer's struggle for survival, a washed-up cricketer's fight for deliverance and a desolate psychiatrist's quest for reclamation lead them to a labyrinth of obscurity while their lives are intertwined in a web of deceit, dismay and darkness."
                 },
                 {
-                    "name":"",
-                    "rating":"",
-                    "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "name":"Penguin",
+                    "medium": "Amazon Prime video",
+                    "rating":"3/5",
+                    "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt11323316%2F&psig=AOvVaw24Kei7rBgUtVD1tc4gsb1o&ust=1633246774123000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJCdlcKcq_MCFQAAAAAdAAAAABAJ",
+                    "relDate": "19 Jun 2020",
+                    "genre": "Mystery Thriller",
+                    "cast":" Keerthi Suresh, Lingaa",
+                    "director" : "Eashvar Karthic",
+                    "storyLine":"Penguin is a Tamil thriller movie written and directed by Eshavar Karthic, and produced by Stone Bench Films and Karthik Subbaraj. The movie stars Keerthy Suresh in the lead role."
                 },
                 {
-                    "name":"",
-                    "rating":"",
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
                     "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 },
                 {
-                    "name":"",
-                    "rating":"",
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
                     "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 },
                 {
-                    "name":"",
-                    "rating":"",
+                    "name":"Mookuthi Amman",
+                    "medium": "Disney Plus Hotstar",
+                    "rating":"3.5/5",
                     "image":"",
-                    "genre": "",
-                    "cast":"",
-                    "storyLine":""
+                    "relDate": "14 Nov 2020",
+                    "genre": "Comedy, Drama",
+                    "cast":"Nayantara, RJ Balaji",
+                    "director" : "RJ Balaji",
+                    "storyLine":"Mookuthi Amman revolves around Ramasamy (RJ Balaji), a journalist who belongs to a middle-class family, that consists of his mother (Urvashi) and three sisters. As they struggle to make ends meet, Goddess Mookuthi Amman (Nayanthara) enters their life to change them and the world around them forever."
                 }
             ]
         }

@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatCarouselModule } from '@ngmodule/material-carousel';
-import { MDBBootstrapModule, CarouselModule } from 'angular-bootstrap-md';
 import { DashboardService } from './dashboard/services/dashboard.service';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import {MatIconModule} from '@angular/material/icon';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,9 +22,9 @@ import { DashboardService } from './dashboard/services/dashboard.service';
     HttpClientModule,
     NgbModule,
     BrowserAnimationsModule,
-    // MatCarouselModule.forRoot()
     CarouselModule,
-    MDBBootstrapModule.forRoot() 
+    MatIconModule,
+    FontAwesomeModule
   ],
   providers: [DashboardService],
   bootstrap: [AppComponent]
