@@ -11,10 +11,14 @@ import { DashboardService } from './dashboard/services/dashboard.service';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import {MatIconModule} from '@angular/material/icon';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {MatDialogModule} from '@angular/material/dialog';
+import { RatingModule } from 'ng-starrating';
+import { InfoDialogComponent } from './dashboard/info-dialog/info-dialog.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    InfoDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     CarouselModule,
     MatIconModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    RatingModule,
+    MatDialogModule
   ],
   providers: [DashboardService],
   bootstrap: [AppComponent]
