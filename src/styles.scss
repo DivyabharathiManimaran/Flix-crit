@@ -40,3 +40,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         position: absolute;
     }
 }
+
+.dialog-style {
+    mat-dialog-container {
+        background: floralwhite !important;
+        border-radius: 30px !important;
+    }
+}

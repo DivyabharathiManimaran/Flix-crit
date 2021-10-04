@@ -1,5 +1,6 @@
 import { Component, Inject, OnInit } from "@angular/core";
 import { MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
+import { Item } from "../models/model";
 
 @Component({
     selector:"info-dialog",
@@ -8,10 +9,10 @@ import { MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
 })
 
 export class InfoDialogComponent implements OnInit {
-    movie = {name:''};
+    movie?:Item;
 
     constructor(private dialogRef: MatDialogRef<InfoDialogComponent>,
-        @Inject(MAT_DIALOG_DATA) data: {movie: {name:string}}) {
+        @Inject(MAT_DIALOG_DATA) data: {movie: Item}) {
 
         this.movie = data.movie;
     }

@@ -1,4 +1,49 @@
-<div>
-    <h1>Hello</h1>
-    <h2>{{ movie.name }}</h2>
+<div fxFlexFill fxLayout = "column">
+    <div mat-dialog-title fxLayoutAlign="space-between center ">
+        <div>{{ movie?.name }}</div> 
+        <mat-icon [mat-dialog-close]="true" class="close">close</mat-icon>
+    </div>
+    <mat-dialog-content fxFlex>
+        <div class="scroll-container" fxLayout="row" fxLayoutGap="24px">
+            <div fxLayout="column" fxFlex="30">
+                <img height="300px" [src]="movie?.image" [alt]="movie?.name" [title]="movie?.name">
+            </div>
+            <div class="scroll-container" fxLayout="column" fxFlex style="height: 300px;">
+                <div fxLayout="row" fxLayoutGap="8px">
+                    <div class="title">Genre:</div>
+                    <div>{{movie?.genre}}</div>                
+                </div>
+                <div fxLayout="row" fxLayoutGap="8px">
+                    <div class="title">Platform:</div>
+                    <div>{{movie?.medium}}</div>   
+                </div>
+                <div fxLayout="row" fxLayoutGap="8px">
+                    <div class="title">Release date:</div>
+                    <div>{{movie?.relDate}}</div>  
+                </div>
+                <div fxLayout="row" fxLayoutGap="8px">
+                    <div class="title">Cast:</div>
+                    <div>{{movie?.cast}}</div>  
+                </div>
+                <div fxLayout="row" fxLayoutGap="8px">
+                    <div class="title">Director:</div>
+                    <div>{{movie?.director}}</div>  
+                </div>
+                <div fxLayoutGap="8px">
+                    <span class="title">Plot:</span>
+                    <span>{{movie?.storyLine}}</span>  
+                </div>
+            </div>
+        </div>
+        <div fxLayout="column">
+            <div *ngIf="movie && movie.criticRev">
+                <span class="title">Crit review:</span>
+                <span>{{movie?.criticRev}}</span>  
+            </div>
+            <div fxLayout="row" fxLayoutGap="8px">
+                <div class="title">Rate the movie:</div>
+                <star-rating [value]="0" [totalstars]="5" checkedcolor="blue" uncheckedcolor="black" size="24px" [readonly]="false"></star-rating> 
+            </div>
+        </div>
+    </mat-dialog-content>
 </div>

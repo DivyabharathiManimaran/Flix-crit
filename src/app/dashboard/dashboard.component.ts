@@ -5,6 +5,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 import { trigger, state, style, transition, animate } from "@angular/animations";
 import { InfoDialogComponent } from "./info-dialog/info-dialog.component";
 import { MatDialog, MatDialogConfig } from "@angular/material/dialog";
+import { Dashboard, Item, MovieList } from "./models/model";
 
 
 @Component( {
@@ -40,27 +41,28 @@ export class DashboardComponent implements OnInit{
       },
       nav: false
     }
-    response:any;
-    langCategory:any[]=[];
+    response?:Dashboard;
+    langCategory:MovieList[]=[];
 
       constructor(private readonly dashboardService: DashboardService,
         private dialog: MatDialog) {
       }
 
-      ngOnInit() {
-        this.dashboardService.getItems().subscribe((resp) => {
+    ngOnInit() {
+        this.dashboardService.getItems().subscribe((resp:Dashboard) => {
             this.response = resp;
             this.langCategory = this.response.dashboard;
             console.log(this.langCategory);
         })
     }
 
-    setSelected(movie:{}) {
+    setSelected(movie: Item) {
       const dialogConfig = new MatDialogConfig();
-        dialogConfig.width='400px';
+        dialogConfig.width='1000px';
+        dialogConfig.height='500px';
         dialogConfig.disableClose = true;
         dialogConfig.autoFocus = true;
-        dialogConfig.panelClass = 'dialog-border';
+        dialogConfig.panelClass = 'dialog-style';
         dialogConfig.data = { movie: movie };
         this.dialog.open(InfoDialogComponent, dialogConfig);
     }

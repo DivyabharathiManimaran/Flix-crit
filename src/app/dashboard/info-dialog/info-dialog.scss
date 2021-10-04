@@ -1,0 +1,12 @@
+mat-dialog-content {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;    
+    font-weight: 300;
+    .title {
+        font-weight: 500;
+    }
+}
+.scroll-container {
+    overflow-y: auto;
+}
