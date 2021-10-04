@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { DashboardService } from './dashboard/services/dashboard.service';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import {MatIconModule} from '@angular/material/icon';
@@ -26,6 +27,7 @@ import { InfoDialogComponent } from './dashboard/info-dialog/info-dialog.compone
     HttpClientModule,
     NgbModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
     CarouselModule,
     MatIconModule,
     FontAwesomeModule,
