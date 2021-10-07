@@ -27,6 +27,8 @@
         text-align: center;
         font-size: 34px;
         padding: 20px;
+        line-height: 32px;
+        margin: 0;
     }
     .content {
         h1 {
@@ -59,17 +61,17 @@
 
     // .content:focus-within .item,
     // .content:hover .item {
-    //     transform: translateX(10%);
+    //     transform: translateX(5%);
     // }
 
     .item:focus ~ .item,
     .item:hover ~ .item {
-        transform: translateX(-10%);     
+        transform: translateX(-5%);     
     }
 
     .content .item:focus,
     .content .item:hover {
-        transform: scaleX(1.5);
+        transform: scaleX(1.1);
         z-index: 1;
     }
 

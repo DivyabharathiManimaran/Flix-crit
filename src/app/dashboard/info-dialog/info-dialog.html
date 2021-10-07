@@ -3,21 +3,21 @@
         <div>{{ movie?.name }}</div> 
         <mat-icon [mat-dialog-close]="true" class="close">close</mat-icon>
     </div>
-    <mat-dialog-content fxFlex>
-        <div class="scroll-container" fxLayout="row" fxLayoutGap="24px">
-            <div fxLayout="column" fxFlex="30">
+    <mat-dialog-content fxFlex fxLayout="column" fxLayoutAlign="space-between center">
+        <div class="scroll-container" fxLayout.gt-xs="row" fxLayout.lt-sm="column" fxLayoutGap="24px">
+            <div fxLayout="column" fxFlex.gt-xs="30" fxFlex.lt-sm="100" >
                 <img height="300px" [src]="movie?.image" [alt]="movie?.name" [title]="movie?.name">
             </div>
-            <div class="scroll-container" fxLayout="column" fxFlex style="height: 300px;">
+            <div class="info-container" fxLayout="column" fxFlex.gt-xs fxFlex.lt-sm="100">
                 <div fxLayout="row" fxLayoutGap="8px">
                     <div class="title">Genre:</div>
                     <div>{{movie?.genre}}</div>                
                 </div>
-                <div fxLayout="row" fxLayoutGap="8px">
+                <div fxLayout="row wrap" fxLayoutGap="8px">
                     <div class="title">Platform:</div>
                     <div>{{movie?.medium}}</div>   
                 </div>
-                <div fxLayout="row" fxLayoutGap="8px">
+                <div fxLayout="row wrap" fxLayoutGap="8px">
                     <div class="title">Release date:</div>
                     <div>{{movie?.relDate}}</div>  
                 </div>
@@ -25,7 +25,7 @@
                     <div class="title">Cast:</div>
                     <div>{{movie?.cast}}</div>  
                 </div>
-                <div fxLayout="row" fxLayoutGap="8px">
+                <div fxLayout="row wrap" fxLayoutGap="8px">
                     <div class="title">Director:</div>
                     <div>{{movie?.director}}</div>  
                 </div>
@@ -33,14 +33,14 @@
                     <span class="title">Plot:</span>
                     <span>{{movie?.storyLine}}</span>  
                 </div>
+                <div *ngIf="movie && movie.criticRev">
+                    <span class="title">Crit review:</span>
+                    <span>{{movie?.criticRev}}</span>  
+                </div>
             </div>
         </div>
-        <div fxLayout="column">
-            <div *ngIf="movie && movie.criticRev">
-                <span class="title">Crit review:</span>
-                <span>{{movie?.criticRev}}</span>  
-            </div>
-            <div fxLayout="row" fxLayoutGap="8px">
+        <div fxLayoutAlign="center center" fxLayout="column">
+            <div fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="8px">
                 <div class="title">Rate the movie:</div>
                 <star-rating [value]="0" [totalstars]="5" checkedcolor="blue" uncheckedcolor="black" size="24px" [readonly]="false"></star-rating> 
             </div>
