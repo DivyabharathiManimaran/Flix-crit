@@ -10,3 +10,9 @@ mat-dialog-content {
 .scroll-container {
     overflow-y: auto;
 }
+.info-container {
+    @media screen and (min-width:600px){
+        height: 300px;     
+        overflow-y: auto;   
+    }
+}

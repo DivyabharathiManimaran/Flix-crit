@@ -59,7 +59,7 @@ export class DashboardComponent implements OnInit{
     setSelected(movie: Item) {
       const dialogConfig = new MatDialogConfig();
         dialogConfig.width='1000px';
-        dialogConfig.height='500px';
+        dialogConfig.height='450px';
         dialogConfig.disableClose = true;
         dialogConfig.autoFocus = true;
         dialogConfig.panelClass = 'dialog-style';
