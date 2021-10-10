@@ -6,6 +6,8 @@ import { trigger, state, style, transition, animate } from "@angular/animations"
 import { InfoDialogComponent } from "./info-dialog/info-dialog.component";
 import { MatDialog, MatDialogConfig } from "@angular/material/dialog";
 import { Dashboard, Item, MovieList } from "./models/model";
+import { moveSyntheticComments } from "typescript";
+import * as moment from "moment";
 
 
 @Component( {
@@ -52,7 +54,13 @@ export class DashboardComponent implements OnInit{
         this.dashboardService.getItems().subscribe((resp:Dashboard) => {
             this.response = resp;
             this.langCategory = this.response.dashboard;
-            console.log(this.langCategory);
+            /** Sorting based on latest release date */
+            this.langCategory.forEach(element => {
+              const newArray = element.movies.sort((a,b)=> {
+                return moment(b.relDate).diff(a.relDate);
+              });
+              element.movies = newArray;              
+            });
         })
     }
 
