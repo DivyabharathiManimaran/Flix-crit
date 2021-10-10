@@ -10,7 +10,7 @@ export class DashboardService {
     }
 
     getItems() {
-        const path = '../../../assets/json/dashboard.json'
+        const path = 'assets/json/dashboard.json'
         return this.http.request<Dashboard>('GET',path);
     }
 }
