@@ -7,7 +7,7 @@ The goal of this application is to view the list of recent OTT releases and thei
 The application
 
 - Is an Angular application allowing the user to  view the list of recent OTT releases and their reviews, ratings, cast, etc.
-- Allows the user to slide through the carousel for multiple languages.
+- Allows the user to slide through the carousel for multiple OTT released in three different languages.
 - Allows the user to view the information corresponding to a particular movie by clicking on its name.
 - Allows the user to rate the movie.
 - Is built to be responsive across multiple devices including mobiles.
